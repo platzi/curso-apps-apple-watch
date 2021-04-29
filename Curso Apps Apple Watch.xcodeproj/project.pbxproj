@@ -15,6 +15,7 @@
 		C1640936263A6C2D00921197 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1640935263A6C2D00921197 /* ComplicationController.swift */; };
 		C1640938263A6C2E00921197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1640937263A6C2E00921197 /* Assets.xcassets */; };
 		C164093B263A6C2E00921197 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C164093A263A6C2E00921197 /* Preview Assets.xcassets */; };
+		C1AA7B0E263B6E0600FF7C8E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA7B0D263B6E0600FF7C8E /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		C1640937263A6C2E00921197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C164093A263A6C2E00921197 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C164093C263A6C2E00921197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AA7B0D263B6E0600FF7C8E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		C1640915263A6C2B00921197 = {
 			isa = PBXGroup;
 			children = (
+				C1AA7B0D263B6E0600FF7C8E /* Note.swift */,
 				C1640924263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App */,
 				C1640930263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension */,
 				C164091D263A6C2B00921197 /* Products */,
@@ -262,6 +265,7 @@
 				C1640932263A6C2D00921197 /* ContentView.swift in Sources */,
 				C1640934263A6C2D00921197 /* Curso_Apps_Apple_WatchApp.swift in Sources */,
 				C1640936263A6C2D00921197 /* ComplicationController.swift in Sources */,
+				C1AA7B0E263B6E0600FF7C8E /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
