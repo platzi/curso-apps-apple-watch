@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var notes : [Note] = []
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        Text("Notas : \(notes.count)")
+        Button("Agregar nota"){
+            let note = Note(id: UUID(), title: "Test", creationDate: Date())
+            notes.append(note)
+        }
     }
 }
 

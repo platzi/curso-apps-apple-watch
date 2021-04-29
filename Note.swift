@@ -11,6 +11,4 @@ struct Note: Identifiable{
     let id: UUID
     let title: String
     let creationDate: Date
-    
-    
 }
