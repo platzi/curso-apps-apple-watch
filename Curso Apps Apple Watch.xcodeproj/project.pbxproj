@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1640921263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1640920263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1640926263A6C2D00921197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1640925263A6C2D00921197 /* Assets.xcassets */; };
+		C164092D263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C164092C263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C1640932263A6C2D00921197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1640931263A6C2D00921197 /* ContentView.swift */; };
+		C1640934263A6C2D00921197 /* Curso_Apps_Apple_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1640933263A6C2D00921197 /* Curso_Apps_Apple_WatchApp.swift */; };
+		C1640936263A6C2D00921197 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1640935263A6C2D00921197 /* ComplicationController.swift */; };
+		C1640938263A6C2E00921197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1640937263A6C2E00921197 /* Assets.xcassets */; };
+		C164093B263A6C2E00921197 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C164093A263A6C2E00921197 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1640922263A6C2C00921197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1640916263A6C2B00921197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C164091F263A6C2C00921197;
+			remoteInfo = "Curso Apps Apple Watch WatchKit App";
+		};
+		C164092E263A6C2D00921197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1640916263A6C2B00921197 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C164092B263A6C2D00921197;
+			remoteInfo = "Curso Apps Apple Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1640942263A6C2E00921197 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C164092D263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1640946263A6C2E00921197 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C1640921263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C164091C263A6C2B00921197 /* Curso Apps Apple Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curso Apps Apple Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1640920263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Curso Apps Apple Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1640925263A6C2D00921197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1640927263A6C2D00921197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C164092C263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Curso Apps Apple Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1640931263A6C2D00921197 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1640933263A6C2D00921197 /* Curso_Apps_Apple_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curso_Apps_Apple_WatchApp.swift; sourceTree = "<group>"; };
+		C1640935263A6C2D00921197 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		C1640937263A6C2E00921197 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C164093A263A6C2E00921197 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C164093C263A6C2E00921197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1640929263A6C2D00921197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1640915263A6C2B00921197 = {
+			isa = PBXGroup;
+			children = (
+				C1640924263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App */,
+				C1640930263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension */,
+				C164091D263A6C2B00921197 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C164091D263A6C2B00921197 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C164091C263A6C2B00921197 /* Curso Apps Apple Watch.app */,
+				C1640920263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App.app */,
+				C164092C263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1640924263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C1640925263A6C2D00921197 /* Assets.xcassets */,
+				C1640927263A6C2D00921197 /* Info.plist */,
+			);
+			path = "Curso Apps Apple Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		C1640930263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1640931263A6C2D00921197 /* ContentView.swift */,
+				C1640933263A6C2D00921197 /* Curso_Apps_Apple_WatchApp.swift */,
+				C1640935263A6C2D00921197 /* ComplicationController.swift */,
+				C1640937263A6C2E00921197 /* Assets.xcassets */,
+				C164093C263A6C2E00921197 /* Info.plist */,
+				C1640939263A6C2E00921197 /* Preview Content */,
+			);
+			path = "Curso Apps Apple Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C1640939263A6C2E00921197 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C164093A263A6C2E00921197 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C164091B263A6C2B00921197 /* Curso Apps Apple Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1640947263A6C2E00921197 /* Build configuration list for PBXNativeTarget "Curso Apps Apple Watch" */;
+			buildPhases = (
+				C164091A263A6C2B00921197 /* Resources */,
+				C1640946263A6C2E00921197 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1640923263A6C2C00921197 /* PBXTargetDependency */,
+			);
+			name = "Curso Apps Apple Watch";
+			productName = "Curso Apps Apple Watch";
+			productReference = C164091C263A6C2B00921197 /* Curso Apps Apple Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		C164091F263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1640943263A6C2E00921197 /* Build configuration list for PBXNativeTarget "Curso Apps Apple Watch WatchKit App" */;
+			buildPhases = (
+				C164091E263A6C2C00921197 /* Resources */,
+				C1640942263A6C2E00921197 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C164092F263A6C2D00921197 /* PBXTargetDependency */,
+			);
+			name = "Curso Apps Apple Watch WatchKit App";
+			productName = "Curso Apps Apple Watch WatchKit App";
+			productReference = C1640920263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C164092B263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C164093F263A6C2E00921197 /* Build configuration list for PBXNativeTarget "Curso Apps Apple Watch WatchKit Extension" */;
+			buildPhases = (
+				C1640928263A6C2D00921197 /* Sources */,
+				C1640929263A6C2D00921197 /* Frameworks */,
+				C164092A263A6C2D00921197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Curso Apps Apple Watch WatchKit Extension";
+			productName = "Curso Apps Apple Watch WatchKit Extension";
+			productReference = C164092C263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1640916263A6C2B00921197 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C164091B263A6C2B00921197 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C164091F263A6C2C00921197 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C164092B263A6C2D00921197 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C1640919263A6C2B00921197 /* Build configuration list for PBXProject "Curso Apps Apple Watch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1640915263A6C2B00921197;
+			productRefGroup = C164091D263A6C2B00921197 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C164091B263A6C2B00921197 /* Curso Apps Apple Watch */,
+				C164091F263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App */,
+				C164092B263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C164091A263A6C2B00921197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C164091E263A6C2C00921197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1640926263A6C2D00921197 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C164092A263A6C2D00921197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C164093B263A6C2E00921197 /* Preview Assets.xcassets in Resources */,
+				C1640938263A6C2E00921197 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1640928263A6C2D00921197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1640932263A6C2D00921197 /* ContentView.swift in Sources */,
+				C1640934263A6C2D00921197 /* Curso_Apps_Apple_WatchApp.swift in Sources */,
+				C1640936263A6C2D00921197 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1640923263A6C2C00921197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C164091F263A6C2C00921197 /* Curso Apps Apple Watch WatchKit App */;
+			targetProxy = C1640922263A6C2C00921197 /* PBXContainerItemProxy */;
+		};
+		C164092F263A6C2D00921197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C164092B263A6C2D00921197 /* Curso Apps Apple Watch WatchKit Extension */;
+			targetProxy = C164092E263A6C2D00921197 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C164093D263A6C2E00921197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C164093E263A6C2E00921197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1640940263A6C2E00921197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Curso Apps Apple Watch WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Curso Apps Apple Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.platzi.Curso-Apps-Apple-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		C1640941263A6C2E00921197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Curso Apps Apple Watch WatchKit Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Curso Apps Apple Watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.platzi.Curso-Apps-Apple-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		C1640944263A6C2E00921197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Curso_Apps_Apple_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Curso Apps Apple Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.platzi.Curso-Apps-Apple-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		C1640945263A6C2E00921197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = Curso_Apps_Apple_Watch_WatchKit_Extension;
+				INFOPLIST_FILE = "Curso Apps Apple Watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.platzi.Curso-Apps-Apple-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		C1640948263A6C2E00921197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.platzi.Curso-Apps-Apple-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C1640949263A6C2E00921197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.platzi.Curso-Apps-Apple-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1640919263A6C2B00921197 /* Build configuration list for PBXProject "Curso Apps Apple Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C164093D263A6C2E00921197 /* Debug */,
+				C164093E263A6C2E00921197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C164093F263A6C2E00921197 /* Build configuration list for PBXNativeTarget "Curso Apps Apple Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1640940263A6C2E00921197 /* Debug */,
+				C1640941263A6C2E00921197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1640943263A6C2E00921197 /* Build configuration list for PBXNativeTarget "Curso Apps Apple Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1640944263A6C2E00921197 /* Debug */,
+				C1640945263A6C2E00921197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1640947263A6C2E00921197 /* Build configuration list for PBXNativeTarget "Curso Apps Apple Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1640948263A6C2E00921197 /* Debug */,
+				C1640949263A6C2E00921197 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1640916263A6C2B00921197 /* Project object */;
+}
