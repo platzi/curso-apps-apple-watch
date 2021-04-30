@@ -10,5 +10,18 @@ import Foundation
 struct Note: Identifiable{
     let id: UUID
     let title: String
-    let creationDate: Date
+    var creationDate: String
+    
+    init(title: String){
+        self.id = UUID()
+        self.title = title
+        
+        // lets now working with dates
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateStyle = .long
+        dateFormatter.timeStyle = .medium
+        self.creationDate = dateFormatter.string(from: date)
+    }
+    
 }
