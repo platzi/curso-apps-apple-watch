@@ -1,8 +1,8 @@
 //
 //  ComplicationController.swift
-//  Curso Apps Apple Watch WatchKit Extension
+//  AppNotes WatchKit Extension
 //
-//  Created by Germán Santos Jaimes on 28/04/21.
+//  Created by Germán Santos Jaimes on 30/04/21.
 //
 
 import ClockKit
@@ -14,7 +14,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
 
     func getComplicationDescriptors(handler: @escaping ([CLKComplicationDescriptor]) -> Void) {
         let descriptors = [
-            CLKComplicationDescriptor(identifier: "complication", displayName: "Curso Apps Apple Watch", supportedFamilies: CLKComplicationFamily.allCases)
+            CLKComplicationDescriptor(identifier: "complication", displayName: "AppNotes", supportedFamilies: CLKComplicationFamily.allCases)
             // Multiple complication support can be added here with more descriptors
         ]
         
