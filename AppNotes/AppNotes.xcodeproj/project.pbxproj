@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1A15B7A26411A4400E24F4D /* Notes App.png in Resources */ = {isa = PBXBuildFile; fileRef = C1A15B7926411A4400E24F4D /* Notes App.png */; };
 		C1ABD1B3263BC80F000BF33C /* AppNotes WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1ABD1B2263BC80F000BF33C /* AppNotes WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C1ABD1B8263BC812000BF33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ABD1B7263BC812000BF33C /* Assets.xcassets */; };
 		C1ABD1BF263BC813000BF33C /* AppNotes WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C1ABD1BE263BC813000BF33C /* AppNotes WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -65,6 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C1A15B7926411A4400E24F4D /* Notes App.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notes App.png"; sourceTree = "<group>"; };
 		C1ABD1AE263BC80F000BF33C /* AppNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ABD1B2263BC80F000BF33C /* AppNotes WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppNotes WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1ABD1B7263BC812000BF33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				C1ABD1E8263BCA00000BF33C /* ListNotes.swift */,
 				C1ABD1EA263BCA01000BF33C /* Note.swift */,
 				C1ABD1E9263BCA01000BF33C /* Tools.swift */,
+				C1A15B7926411A4400E24F4D /* Notes App.png */,
 				C1ABD1B6263BC80F000BF33C /* AppNotes WatchKit App */,
 				C1ABD1C2263BC813000BF33C /* AppNotes WatchKit Extension */,
 				C1ABD1AF263BC80F000BF33C /* Products */,
@@ -264,6 +267,7 @@
 			files = (
 				C1ABD1CD263BC814000BF33C /* Preview Assets.xcassets in Resources */,
 				C1ABD1CA263BC814000BF33C /* Assets.xcassets in Resources */,
+				C1A15B7A26411A4400E24F4D /* Notes App.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
